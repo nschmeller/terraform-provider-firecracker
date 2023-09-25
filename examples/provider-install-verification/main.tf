@@ -1,11 +1,11 @@
 terraform {
   required_providers {
-    firecracker = {
-      source = "registry.terraform.io/lacework-dev/firecracker"
+    flintlock = {
+      source = "registry.terraform.io/lacework-dev/flintlock"
     }
   }
 }
 
-provider "firecracker" {}
+provider "flintlock" {}
 
-data "firecracker_example" "example" {}
+data "flintlock_example" "example" {}

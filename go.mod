@@ -1,4 +1,4 @@
-module github.com/lacework-dev/terraform-provider-firecracker
+module github.com/lacework-dev/terraform-provider-flintlock
 
 go 1.19
 
@@ -8,6 +8,14 @@ require (
 	github.com/hashicorp/terraform-plugin-go v0.19.0
 	github.com/hashicorp/terraform-plugin-log v0.9.0
 	github.com/hashicorp/terraform-plugin-testing v1.5.1
+)
+
+require (
+	github.com/grpc-ecosystem/grpc-gateway/v2 v2.10.3 // indirect
+	github.com/weaveworks-liquidmetal/flintlock/api v0.0.0-20230113160655-b1354ef6d578 // indirect
+	google.golang.org/genproto v0.0.0-20230526161137-0005af68ea54 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20230525234035-dd9d682886f9 // indirect
+	k8s.io/utils v0.0.0-20230115233650-391b47cb4029 // indirect
 )
 
 require (
@@ -61,6 +69,7 @@ require (
 	github.com/vmihailenco/msgpack v4.0.4+incompatible // indirect
 	github.com/vmihailenco/msgpack/v5 v5.3.5 // indirect
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
+	github.com/warehouse-13/hammertime v0.0.11
 	github.com/zclconf/go-cty v1.14.0 // indirect
 	golang.org/x/crypto v0.13.0 // indirect
 	golang.org/x/exp v0.0.0-20230809150735-7b3493d9a819 // indirect
@@ -72,5 +81,4 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20230525234030-28d5490b6b19 // indirect
 	google.golang.org/grpc v1.57.0 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
-	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 )

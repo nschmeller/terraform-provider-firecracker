@@ -9,7 +9,7 @@ import (
 	"log"
 
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
-	"github.com/lacework-dev/terraform-provider-firecracker/internal/provider"
+	"github.com/lacework-dev/terraform-provider-flintlock/internal/provider"
 )
 
 // Run "go generate" to format example terraform files and generate the docs for the registry/website
@@ -38,7 +38,7 @@ func main() {
 	flag.Parse()
 
 	opts := providerserver.ServeOpts{
-		Address: "registry.terraform.io/lacework-dev/firecracker",
+		Address: "registry.terraform.io/lacework-dev/flintlock",
 		Debug:   debug,
 	}
 
