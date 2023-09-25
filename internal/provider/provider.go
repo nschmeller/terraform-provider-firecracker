@@ -122,7 +122,7 @@ func (p *FlintlockProvider) Resources(ctx context.Context) []func() resource.Res
 
 func (p *FlintlockProvider) DataSources(ctx context.Context) []func() datasource.DataSource {
 	return []func() datasource.DataSource{
-		NewVMDataSource,
+		NewVMsDataSource,
 	}
 }
 

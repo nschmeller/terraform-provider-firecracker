@@ -8,4 +8,4 @@ terraform {
 
 provider "flintlock" {}
 
-data "flintlock_vm" "example" {}
+data "flintlock_vms" "example" {}
