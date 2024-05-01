@@ -3,7 +3,7 @@ module github.com/lacework-dev/terraform-provider-flintlock
 go 1.19
 
 require (
-	github.com/hashicorp/terraform-plugin-docs v0.19.1
+	github.com/hashicorp/terraform-plugin-docs v0.19.2
 	github.com/hashicorp/terraform-plugin-framework v1.8.0
 	github.com/hashicorp/terraform-plugin-go v0.22.2
 	github.com/hashicorp/terraform-plugin-log v0.9.0
@@ -18,7 +18,7 @@ require (
 	github.com/hashicorp/cli v1.1.6 // indirect
 	github.com/mattn/go-runewidth v0.0.9 // indirect
 	github.com/weaveworks-liquidmetal/flintlock/api v0.0.0-20230113160655-b1354ef6d578 // indirect
-	github.com/yuin/goldmark v1.7.0 // indirect
+	github.com/yuin/goldmark v1.7.1 // indirect
 	github.com/yuin/goldmark-meta v1.1.0 // indirect
 	go.abhg.dev/goldmark/frontmatter v0.2.0 // indirect
 	golang.org/x/tools v0.13.0 // indirect
